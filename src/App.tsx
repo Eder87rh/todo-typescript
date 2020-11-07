@@ -1,9 +1,10 @@
 import React from 'react';
+import Container from './views/Container';
 
 function App() {
   return (
     <div className="App">
-      Hello typescript!
+      <Container />
     </div>
   );
 }
