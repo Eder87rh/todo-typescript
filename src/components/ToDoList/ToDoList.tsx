@@ -10,6 +10,11 @@ export const ToDoList: React.FC = () => {
       title: "title",
       checked: false,
     },
+    {
+      id: 2,
+      title: "2222",
+      checked: false,
+    },
   ]);
 
   return (

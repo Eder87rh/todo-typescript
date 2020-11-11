@@ -1,20 +1,22 @@
-import * as React from 'react';
-import IToDo from './IToDo';
+import * as React from "react";
+import IToDo from "./IToDo";
+import Styles from "./toDoList.module.css";
 
-export type ToDoListItemProps = { toDoItem: IToDo }
+export type ToDoListItemProps = { toDoItem: IToDo };
 export const ToDoListItem: React.FC<ToDoListItemProps> = ({ toDoItem }) => {
-  console.log({ toDoItem })
+  console.log({ toDoItem });
   return (
-    <div>
+    <div className={Styles.todoItem}>
       <input
         type="checkbox"
+        style={{ marginRight: "1rem" }}
         name="todo-checked"
         id="todo-checked"
         checked={toDoItem.checked}
       />
-      <p>Title: {toDoItem.title}</p>
+      <p>{toDoItem.title}</p>
     </div>
-  )
+  );
 };
 
 export default ToDoListItem;

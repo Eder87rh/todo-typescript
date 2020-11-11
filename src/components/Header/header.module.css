@@ -1,0 +1,28 @@
+.title {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  color: var(--font-primary);
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  font-size: 1.9rem;
+  text-decoration: none;
+}
+
+.navElement {
+  text-decoration: none;
+  margin-right: 3rem;
+  color: var(--font-color);
+}
+
+.activeNavElement {
+  text-decoration: none;
+  margin-right: 3rem;
+  color: var(--font-primary);
+}
