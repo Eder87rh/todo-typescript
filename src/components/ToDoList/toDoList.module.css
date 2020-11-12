@@ -33,11 +33,7 @@
   align-items: center;
 }
 
-.menuIcon {
+.dropdown {
   align-self: flex-start;
   justify-self: flex-end;
-  width: 1.5rem;
-  transform: scale(0.85);
-  margin-left: 1rem;
-  fill: var(--color-primary);
 }

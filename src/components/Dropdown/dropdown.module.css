@@ -1,0 +1,27 @@
+.dropdown {
+  position: relative;
+}
+
+.button {
+  width: 1.5rem;
+  transform: scale(0.85);
+  margin-left: 1rem;
+  fill: var(--font-color);
+  cursor: pointer;
+}
+
+.content {
+  position: absolute;
+  background-color: var(--color-grey-1);
+  border-radius: 0.3rem;
+}
+
+.item {
+  padding: 1.2rem;
+}
+
+.item:hover {
+  background-color: var(--color-secondary);
+  color: var(--font-color-2);
+  cursor: pointer;
+}

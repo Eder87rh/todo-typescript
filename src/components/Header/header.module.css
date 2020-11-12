@@ -2,7 +2,7 @@
   font-size: 3.5rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
-  color: var(--font-primary);
+  color: var(--font-secondary);
 }
 
 .toolbar {
